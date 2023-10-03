@@ -1,5 +1,5 @@
 import fastify from "fastify";
-import cors from "@fastify/cors";
+
 import fastifyStatic from "@fastify/static";
 import portionSizes from "./data/portionSizes.mjs";
 import path from "path";
@@ -17,7 +17,7 @@ const server = fastify();
 
 
 
-server.register(cors, {});
+
 
 server.setNotFoundHandler((_, reply) => {
   return reply.sendFile('index.html')
