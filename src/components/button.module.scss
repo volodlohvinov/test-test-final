@@ -1,0 +1,52 @@
+.cool-button {
+    display: flex;
+    padding: 30px;
+    padding-bottom: 50px;
+    margin: 0 130px;
+    background-color: lightcoral;
+    border: 0;
+     &:hover {
+         background-color: lightblue;
+         
+     }
+ }
+ span {
+    font-size: 18px;
+ }
+ .link-button {
+    display: flex;
+     background-color: lightcoral;
+     border-radius: 50px;
+     padding: 25px;
+     align-items: center;
+     border: 0;
+     &:hover {
+        background-color: lightblue;
+     }
+     
+ }
+.add-button {
+    display: flex;
+    background-color: lightcoral;
+    border: 0;
+     &:hover {
+         background-color: lightblue;
+         
+}
+span {
+    font-size: 15px;
+}
+}
+.constructor-button {
+    display: flex;
+    background-color: lightcoral;
+    align-items: center;
+    padding: 65px;
+    border: 0;
+    &:hover {
+        background-color: lightblue;
+     }
+     span {
+        font-size: 45px;
+     }
+}

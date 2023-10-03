@@ -1,0 +1,31 @@
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+   padding: 17px 0 17px 0;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-image: linear-gradient(to right, lightblue, violet);
+    margin: 0;
+    align-items: center;
+    
+}
+.menu {
+    font-size: 25px;
+    flex-grow: 1;
+    color: #800000;
+    padding: 0 25px 0 25px;
+}
+header {
+    height: 100px;
+}
+.logo {
+    width: 100%;
+    max-width: 100px;
+    
+    
+    
+}

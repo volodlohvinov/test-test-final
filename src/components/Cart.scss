@@ -1,0 +1,65 @@
+.cart-container {
+    padding: 0 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.total {
+    text-align: center;
+}
+.smoothie-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+   width: 250px;
+   color: crimson;
+    font-weight: 600;
+    background: pink;
+}
+.picture {
+    width: 150px;
+    margin-top: 15px;
+}
+.ingredients {
+    padding-left: 10px;
+    line-height: 20px;
+}
+.button-container {
+display: flex;
+justify-content: center;
+}
+.button {
+    margin-bottom: 25px;
+}
+a {
+    text-decoration: none;
+}
+.info-container {
+    display: flex;
+   justify-content: center;
+   color: pink;
+    margin-top: 25px;
+}
+.customer-info {
+    margin-right: 20px;
+}
+.order-info {
+    margin-bottom: 30px;
+}
+.empty-cart {
+    font-size: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: pink;
+    margin-bottom: 50px;
+    
+}
+.order-info-container {
+    margin-bottom: 20px;
+}
+.total {
+    color: pink;
+}

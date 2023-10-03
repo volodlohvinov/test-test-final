@@ -1,0 +1,57 @@
+footer {
+    background-image: linear-gradient(to left, #B0E0E6, #FFB6C1);
+    padding-bottom: 25px;
+    margin-top: 50px;
+    
+}
+.elipse {
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    border: 2px solid #f13c6e;
+    display: inline-block;
+    border-radius: 30px;
+    margin-left: 20px;
+    
+    
+}
+.logo {
+    width: 22px;
+    text-align: center;
+}
+.elipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.phone {
+    font-size: 20px;
+    
+    margin-right: 70px;
+    color: #f13c6e;
+    font-weight: 600;
+    
+}
+.manager {
+    font-size: 20px;
+    
+    color: #FF1493;
+    font-weight: 600;
+}
+.copyright {
+    font-size: 16px;
+    color: gray;
+    line-height: 20px;
+}
