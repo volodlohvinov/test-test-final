@@ -44,7 +44,10 @@
       "redux": "^4.2.1",
       "redux-logger": "^3.0.6",
       "swiper": "^10.2.0",
-      "uuid": "^9.0.1"
+      "uuid": "^9.0.1",
+      "antd": "^5.9.0",
+      "@ant-design/icons": "^5.2.6"
+      
     },
     "engines": {
       "node": "16.4.0"
