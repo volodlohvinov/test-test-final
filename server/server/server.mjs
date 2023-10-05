@@ -51,7 +51,7 @@ server.get("/portion-sizes", (_, reply) => {
  
   
 const port = process.env.PORT || 8064;
-const host = process.env.HOST || 'localhost'
+const host = process.env.HOST || "localhost"
 
 server
   .listen({ port, host })
