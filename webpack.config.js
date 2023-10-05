@@ -103,9 +103,7 @@ module.exports = {
         },
         port: 8064,
         historyApiFallback: true,
-        watchFiles: 'src/**/*',
-        devMiddleware: {
-          writeToDisk: true
+        
         },
-      },
       };
+      
